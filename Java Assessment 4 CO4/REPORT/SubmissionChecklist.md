@@ -1,0 +1,12 @@
+# Submission checklist
+- [ ] Repository named `CSA09-192472308-Assignment4`.
+- [ ] README contains name, register number, Java version and run steps.
+- [ ] Task 1 diagnosis, repair, defence and complexity analysis completed.
+- [ ] Task 2 event table, hierarchy, pseudocode and event trace completed.
+- [ ] Task 3 working GUI and three resize screenshots.
+- [ ] Task 4 defect reproduction, repaired code and repaint screenshots.
+- [ ] Task 5 all four styles tested with button and Enter key.
+- [ ] Task 6 database schema, JDBC driver and database configured.
+- [ ] Task 6 normal, invalid and duplicate registration tested.
+- [ ] Actual screenshots and experiment log included.
+- [ ] Git commits made progressively, at least one per task.
