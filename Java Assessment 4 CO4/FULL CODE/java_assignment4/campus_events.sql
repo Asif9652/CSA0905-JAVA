@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS campus_events;
+USE campus_events;
+CREATE TABLE IF NOT EXISTS registrations (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    student_id VARCHAR(30) NOT NULL,
+    event_name VARCHAR(80) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    UNIQUE KEY unique_student_event (student_id, event_name)
+);
